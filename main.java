@@ -54,6 +54,14 @@ public class main {
 	    simulation of the given hardware for given simulation
 	    inputs. The method for starting the simulation should be
 	    called here for the Circuit p. */
+
+		// Construct an interpreter and run it on the parse tree
+		/*ASTmaker mk = new ASTmaker();
+		AST ast=mk.visit(parseTree);
+		Environment env=mk.env;
+		((Command) ast).typecheck(env);*/
+		AstMaker mk = new AstMaker();
+
     }
 }
 
